@@ -1,0 +1,339 @@
+@font-face {
+    font-family: iCielKoni;
+    font-weight: 900;
+    src: url("../../assets/fontawesome/iCielKoniBlack.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: bold;
+    src: url("../../assets/fontawesome/Montserrat-Bold.ttf") format("opentype");
+}
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
+    min-height: 1000px;
+    
+}
+
+/* header css */
+header {
+    filter: drop-shadow(-1px 17px 10px rgba(50, 50, 0, 0.3));
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+.navigation {
+    position: fixed;
+    z-index: 99 !important;
+    width: 100%;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+    -webkit-clip-path: ellipse(75% 81% at 50% 20%);
+    clip-path: ellipse(60% 71% at 50% 30%);
+    background: #ED7200;
+
+}
+
+.container-custom {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.div-logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.div-logo img {
+    width: 150px;
+    height: 60px;
+}
+
+.nav-header li a {
+    border: #ED7200 2px solid;
+    border-radius: 30px;
+    padding: 2px 8px !important;
+    margin: 0px 5px 0px 5px;
+    font-size: 15px;
+    color: rgb(236 236 236) !important;
+}
+
+.nav-header li a:hover {
+    border: white 2px solid;
+    color: white !important;
+}
+
+.div-hotline a {
+    font-size: 15px;
+    color: white !important;
+    text-decoration: none;
+
+}
+
+.tel-css {
+    border: white solid 2px;
+    border-radius: 98px;
+    padding: 3px 5px;
+    font-size: 14px;
+}
+
+/* end header css */
+
+/* section css */
+section {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.main-section {
+    height: 961px;
+    width: 90%;
+    margin: auto auto;
+    background-image: url("../../images/bgr1.png");
+    background-repeat: no-repeat;
+    background-size: 110%;
+    border-radius: 27px;
+    padding-top: 100px; 
+position: relative;
+z-index: -5;
+
+}
+
+.main-content {}
+
+.div-top {
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+
+.div-sticker1 {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 125px;
+    height: 100px;
+    background: url(../../images/logo1.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+   
+}
+
+.div-text1 {
+    position: absolute;
+    width: 302px;
+    height: 100px;
+    left: 140px;
+    top: 25px;
+    font-family: "iCielKoni", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.div-sticker2 {
+    position: absolute;
+    left: 417px;
+    top: 50px;
+    width: 120px;
+    height: 170px;
+    background: url(../../images/sticker2.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+   
+}
+.div-sticker3 {
+    position: absolute;
+    left: 600px;
+    top: -10px;
+    width: 100px;
+    height: 151px;
+    background: url(../../images/sticker3.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    z-index: 0 !important;
+    
+}
+.div-sticker4 {
+    position: absolute;
+    background: url(../../images/sticker4.png);
+    right: -105px;
+    top:-30px;
+    width: 500px;
+    height: 260px;
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    z-index: 0 !important;
+}
+.div-sticker5 {
+    position: absolute;
+    left: -180px;
+    top: 179px;
+    width: 120px;
+    height: 170px;
+    background: url(../../images/sticker5.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    z-index: 0 !important;
+}
+.div-sticker6 {
+    position: absolute;
+    top: 282px;
+    right: 0px;
+    width: 105px;
+    height: 190px;
+    background: url(../../images/sticker6.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+   
+}
+.div-sticker7 {
+    position: absolute;
+    top: 625px;
+    right: 40px;
+    width: 105px;
+    height: 190px;
+    background: url(../../images/sticker7.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+   
+}
+.div-sticker8 {
+    position: absolute;
+    top: 679px;
+    right: 975px;
+    width: 107px;
+    height: 142px;
+    background: url(../../images/sticker8.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+   
+}
+.div-sticker9 {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    width: 200px;
+    height: 317px;
+    background: url(../../images/sticker-girl.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+   z-index: 5;
+}
+.div-top{
+    min-height: 100px;
+}
+.div-ticket{
+    height: 410px;
+    width: 100%;
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+ .div-left , .div-right, .div-center{
+   
+    border-radius: 30px;
+ }
+.div-left{
+    position: absolute;
+    background-color:#FDE8B3 ;
+    width:calc(70% - 20px);
+    padding: 10px;
+    box-shadow: #FFCA7B 0px 15px 0px 0px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+.tiket-left-child{
+    border:3px dashed #FFB489;
+    width: 100%;
+    background-color: #FFF6D4;
+    border-radius: 30px;
+    height: 100%;
+    padding: 20px;
+    line-height: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+.text-line-star{
+    width: 100%;
+    margin-left: 40px;
+ 
+
+}
+.div-star{
+    filter: drop-shadow(0px 3px 0px #CF6100)
+}
+.star1{
+    float: left;
+    width: 30px;
+    
+    height: 40px;
+    -webkit-clip-path: polygon(49% 3%, 66% 24%, 98% 35%, 72% 50%, 77% 77%, 50% 63%, 23% 77%, 27% 49%, 2% 35%, 35% 25%);
+    clip-path: polygon(49% 3%, 66% 24%, 98% 35%, 72% 50%, 77% 77%, 50% 63%, 23% 77%, 27% 49%, 2% 35%, 35% 25%);
+background-color: #CF6100;
+}
+.star2{
+    margin:5px 5px ;
+    float: left;
+    width: 20px;
+    height: 30px;
+    -webkit-clip-path: polygon(49% 3%, 66% 24%, 98% 35%, 72% 50%, 77% 77%, 50% 63%, 23% 77%, 27% 49%, 2% 35%, 35% 25%);
+    clip-path: polygon(49% 3%, 66% 24%, 98% 35%, 72% 50%, 77% 77%, 50% 63%, 23% 77%, 27% 49%, 2% 35%, 35% 25%);
+    background: linear-gradient(90deg, #FDE329 0%, #FFED78 99.99%);
+}
+.text-line-star p{
+    width: calc(100% - 40px);
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 15px;
+    margin: 0;
+}
+.tiket-right-child{
+    border:3px dashed #FFB489;
+    width: 100%;
+    background-color: #FFF6D4;
+    border-radius: 30px;
+    height: 100%;
+}
+.tiket-left-child-top{
+    font-size: 17px;
+}
+.div-center{
+    position: absolute;
+    width: 92px;
+    height: 100%;
+    top: 3px;
+    left: 728px;
+    background-image: url(../../images/Vector.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+   
+}
+.div-right{
+    position: absolute;
+    padding: 10px;
+    top: 0px;
+    right: -17px;
+    z-index: 5;
+    width: calc(32% - 2px);
+    height: 100%;
+    background-color:#FDE8B3 ;
+    box-shadow: #FFCA7B 0px 15px 0px 0px;
+}
+
+/* end section css */
