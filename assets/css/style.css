@@ -16,6 +16,7 @@ body {
     box-sizing: border-box;
     background: radial-gradient(97.91% 60.14% at 50% 50%, #FFDB7E 0%, #FF7A00 100%);
     min-height: 1000px;
+  
     
 }
 
@@ -24,19 +25,23 @@ header {
     filter: drop-shadow(-1px 17px 10px rgba(50, 50, 0, 0.3));
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 99;
 }
 .navigation {
-    position: fixed;
+    position: relative;
     z-index: 99 !important;
     width: 100%;
-    height: 76px;
+    height: 107.82px;
     left: 0px;
     top: 0px;
-    -webkit-clip-path: ellipse(75% 81% at 50% 20%);
-    clip-path: ellipse(60% 71% at 50% 30%);
+    -webkit-clip-path: ellipse(65% 73% at 50% 31%);
+    clip-path:ellipse(65% 73% at 50% 31%);
     background: #ED7200;
-
+    font-size: 18px;
 }
 
 .container-custom {
@@ -53,26 +58,26 @@ header {
 }
 
 .div-logo img {
-    width: 150px;
-    height: 60px;
+    width: 229px;
+    height: 91px;
 }
 
 .nav-header li a {
     border: #ED7200 2px solid;
     border-radius: 30px;
-    padding: 2px 8px !important;
+    padding: 3px 9px !important;
     margin: 0px 5px 0px 5px;
-    font-size: 15px;
+    
     color: rgb(236 236 236) !important;
 }
 
-.nav-header li a:hover {
-    border: white 2px solid;
+.a-focus ,.nav-header li a:hover {
+    border: white 2px solid !important;
     color: white !important;
 }
-
+ 
 .div-hotline a {
-    font-size: 15px;
+    
     color: white !important;
     text-decoration: none;
 
@@ -81,8 +86,8 @@ header {
 .tel-css {
     border: white solid 2px;
     border-radius: 98px;
-    padding: 3px 5px;
-    font-size: 14px;
+    padding: 3px 6px;
+    font-size: 18px;
 }
 
 /* end header css */
@@ -104,7 +109,7 @@ section {
     border-radius: 27px;
     padding-top: 100px; 
 position: relative;
-z-index: -5;
+z-index: 0;
 
 }
 
@@ -118,10 +123,10 @@ z-index: -5;
 
 .div-sticker1 {
     position: absolute;
-    top: 20px;
+    top: 35px;
     left: 0px;
-    width: 125px;
-    height: 100px;
+    width: 170px;
+    height: 145px;
     background: url(../../images/logo1.png);
     background-size: 100% !important;
     background-repeat: no-repeat;
@@ -130,24 +135,24 @@ z-index: -5;
 
 .div-text1 {
     position: absolute;
-    width: 302px;
+    width: 370px;
     height: 100px;
-    left: 140px;
-    top: 25px;
+    left: 200px;
+    top: 60px;
     font-family: "iCielKoni", sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 55px;
+    line-height: 60px;
     color: #FFFFFF;
 }
 
 .div-sticker2 {
     position: absolute;
-    left: 417px;
-    top: 50px;
-    width: 120px;
-    height: 170px;
+    left: 425px;
+        top: 85px;
+    width: 144px;
+    height: 205px;
     background: url(../../images/sticker2.png);
     background-size: 100% !important;
     background-repeat: no-repeat;
@@ -155,10 +160,10 @@ z-index: -5;
 }
 .div-sticker3 {
     position: absolute;
-    left: 600px;
+    left: 630px;
     top: -10px;
-    width: 100px;
-    height: 151px;
+    width: 117px;
+    height: 174px;
     background: url(../../images/sticker3.png);
     background-size: 100% !important;
     background-repeat: no-repeat;
@@ -168,8 +173,8 @@ z-index: -5;
 .div-sticker4 {
     position: absolute;
     background: url(../../images/sticker4.png);
-    right: -105px;
-    top:-30px;
+    right: -80px;
+    top: 60px;
     width: 500px;
     height: 260px;
     background-size: 100% !important;
@@ -189,21 +194,21 @@ z-index: -5;
 }
 .div-sticker6 {
     position: absolute;
-    top: 282px;
-    right: 0px;
-    width: 105px;
-    height: 190px;
-    background: url(../../images/sticker6.png);
+    top: 95px;
+    right: -220px;
+    width: 140px;
+    height: 207px;
+    background: url(../../images/sticker8.png);
     background-size: 100% !important;
     background-repeat: no-repeat;
    
 }
 .div-sticker7 {
     position: absolute;
-    top: 625px;
-    right: 40px;
-    width: 105px;
-    height: 190px;
+    bottom: -165px;
+    right: -105px;
+    width: 140px;
+    height: 215px;
     background: url(../../images/sticker7.png);
     background-size: 100% !important;
     background-repeat: no-repeat;
@@ -211,8 +216,8 @@ z-index: -5;
 }
 .div-sticker8 {
     position: absolute;
-    top: 679px;
-    right: 975px;
+    bottom: -140px;
+    right: 705px;
     width: 107px;
     height: 142px;
     background: url(../../images/sticker8.png);
@@ -222,8 +227,8 @@ z-index: -5;
 }
 .div-sticker9 {
     position: absolute;
-    top: 500px;
-    left: 0px;
+    bottom: -25px;
+    left: -115px;
     width: 200px;
     height: 317px;
     background: url(../../images/sticker-girl.png);
@@ -236,12 +241,13 @@ z-index: -5;
 }
 .div-ticket{
     height: 410px;
-    width: 100%;
-    position: absolute;
-    top: 180px;
+        width: 100%;
+        position: absolute;
+        top: 275px;
     left: 0px;
     display: flex;
     justify-content: space-between;
+    
 }
  .div-left , .div-right, .div-center{
    
@@ -263,7 +269,7 @@ z-index: -5;
     background-color: #FFF6D4;
     border-radius: 30px;
     height: 100%;
-    padding: 20px;
+    padding: 10px;
     line-height: 30px;
     font-family: "Montserrat", sans-serif;
 }
@@ -309,13 +315,14 @@ background-color: #CF6100;
     background-color: #FFF6D4;
     border-radius: 30px;
     height: 100%;
+    position: relative;
 }
 .tiket-left-child-top{
     font-size: 17px;
 }
 .div-center{
     position: absolute;
-    width: 92px;
+    width: 96px;
     height: 100%;
     top: 3px;
     left: 728px;
@@ -330,10 +337,101 @@ background-color: #CF6100;
     top: 0px;
     right: -17px;
     z-index: 5;
-    width: calc(32% - 2px);
+    width: calc(32% - 6px);
     height: 100%;
     background-color:#FDE8B3 ;
     box-shadow: #FFCA7B 0px 15px 0px 0px;
 }
 
+.div-tiket-child{
+      
+   
+    width:200px ;
+    height: 80px;
+    background-image: url(../../images/imgvecuaban.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+ 
+    margin: auto;
+    margin-top: -45px;
+    left:28%;
+   
+ 
+ 
+}
+.input-f{
+    display: flex;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.input-f>input,.input-f>select  {
+    background: #FFFFFF;
+    /* inner shadow */ 
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+    border:none ;
+    outline:  none;
+    padding: 7px 10px;
+}
+.input-format input{
+    width: 100%;
+}
+.input-f select{
+    width: calc( 100% - 45px );
+    background: #FFFFFF;
+/* inner shadow */ 
+box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+border-radius: 16px;
+border:none ;
+outline:  none;
+padding: 7px 10px;
+
+}
+.btndate{
+    
+    width: 40px;
+    margin-left: 5px;
+    height: 56px;
+    background-image: url(../../images/btndate.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.btnselect{
+    
+    width: 40px;
+    margin-left: 5px;
+    height: 56px;
+    background-image: url(../../images/btnselect.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.qty-ticket-input{
+    width: 32%;
+
+}
+.date-ticket-input{
+    width: calc(68% - 50px);
+    margin-left: 5px;
+}
+.btn-order-ticket{
+    display: flex;
+}
+.btn-order-ticket button{
+    width: 80% ;
+    margin: 0 auto;
+    line-height: 10px;
+    height: 45px;
+    font-family: "iCielKoni", sans-serif;
+    background: #FF000A;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: rgb(139 2 2) 0px 3px 1px 0px;
+}
 /* end section css */
+
+
+ 
