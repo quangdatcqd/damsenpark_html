@@ -1265,5 +1265,37 @@
 @media(max-width:768px ) {
 
 .h1500px{
-    height: 1500px !important;
+    height: 1560px  !important;
 }}
+@media(max-width:480px ) {
+.sticker-girl1,.sticker-girl2{
+    display: none;
+}
+.tiket-left-child >div{
+    padding-left: 0px !important;
+}
+.vecuaban{
+    left: 0px;
+}
+.pad-5{
+    padding: 5px !important;
+}
+.sticker-payment{
+    left: 0px;
+}
+.sticker-payment, .vecuaban{
+    width: 200px;
+}
+.btn-double a {
+    width: 100% !important; 
+    float: left;
+    margin-top: 20px;
+}
+.btn-double {
+    height: 400px;
+}
+.marign-0{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+}
