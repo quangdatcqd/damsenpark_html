@@ -528,7 +528,7 @@
     .btn-next {
         position: absolute;
         top: 170px;
-        right: -20px;
+        right: -80px;
     }
     
     .card {
@@ -932,6 +932,13 @@
     .div-center{
         display: none;
     }
+    .card-btn {
+        font-size: 10px;
+        padding: 10px 15px 8px 15px;
+    }
+    .card-price {
+        font-size: 22px;
+    }
     .div-left { 
         width: 70%;
         left: 0px;
@@ -1005,9 +1012,14 @@
     }
     .h-payment{
         height: 625px !important;
+        margin: 0px;
     }
     .input-ttlh {
         width: 100% !important;
+    }
+    .sticker-payment{
+        width: 215px;
+        left: 10px;
     }
 }
 @media (max-width:1024px ) {
@@ -1249,24 +1261,34 @@
     .div-left,.div-right{
         left: 0px;
     }
-  
+  .h-55{
+      height: 55%;
+  }
+  .top360{
+      top: 360px;
+  }
     
 }
-@media(min-width:768px ) {
+ 
+@media(max-width:768px ) {
     .card-price {
         font-size: 15px;
     }
     .card-btn{
         font-size: 13px;
-        padding: 10px 6px 8px 6px;
+        padding: 15px 25px 10px 25px;
     }
-    
-}
-@media(max-width:768px ) {
-
 .h1500px{
-    height: 1560px  !important;
+    height: 1600px  !important;
 }}
+@media(max-width:533px ) {
+    .h-55{
+        height: 90%;
+    }
+    .top360{
+        top: 560px;
+    } 
+}
 @media(max-width:480px ) {
 .sticker-girl1,.sticker-girl2{
     display: none;
